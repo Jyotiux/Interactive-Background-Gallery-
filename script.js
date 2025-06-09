@@ -1,8 +1,8 @@
 // images array-----------------------------
 const darkColorsArr = [
-  "img/image.png",
-  "img/image2.png",
-  "img/image3.png",
+  "image.png",
+  "image2.png",
+  "image3.png",
 ];
 // \quotes array----------------------------------
 const thought =[
