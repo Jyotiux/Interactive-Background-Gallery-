@@ -1,0 +1,47 @@
+/* global styles-------------------------------------------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: #f1be32;
+  --golden-yellow: #feac32;
+  --dark-purple: #110815;
+  --light-grey: #e5e5e5;
+}
+
+/* body----------------------------- */
+
+body{
+  background-color: var(--dark-purple);
+  color: var(--light-grey);
+  text-align: center;
+  background-size: cover;
+  transition: background-image 0.4s ease-in-out;
+  height:300px;
+}
+
+/* text area------------------------------------------- */
+#info{
+    margin: 15px 0 25px;
+    font-size: 1.2rem;
+    color: var(--dark-purple);
+}
+/* button------------------------------------------- */
+#btn{
+    background-color: var(--yellow);
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border-color:var(--golden-yellow);
+    border-width: 3px;
+}
+
+
+#btn:hover{
+    background-color: var(--golden-yellow);
+}
